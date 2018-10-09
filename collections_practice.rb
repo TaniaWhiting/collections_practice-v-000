@@ -28,8 +28,10 @@ end
 
 def find_a(array)
   array.collect do |word|
-    if word.start_with?("a")
-  end
+    word.start_with?("a")
+    if false  
+      word.delete
+    end
   return array
 end
   
