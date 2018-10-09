@@ -32,6 +32,7 @@ def find_a(array)
     if false  
       word.delete
     end
+  end
   return array
 end
   
