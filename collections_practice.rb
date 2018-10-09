@@ -23,7 +23,7 @@ end
 
 def kesha_maker(array)
   new_array=array
-  news_string=[]
+  new_string=[]
     array.each do |element, index|
     if element.length > 2 
       new_string=element.split
