@@ -27,7 +27,7 @@ def kesha_maker(array)
     array.each do |element|
     if element.length > 2  
       new_array[index] = element[2] = "$"
-  
+  end
 end
     
   
