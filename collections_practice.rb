@@ -23,15 +23,7 @@ end
 
 def kesha_maker(array)
   new_array=array
-  new_string=[]
-    array.each do |element, index|
-    if element.length > 2 
-      new_string=element.split
-      new_string.delete_at(2)
-      new_string.insert(2,"$")
-      new_array[index]=new_string.join
-    end
-  end
+  array.map
   return new_array
 end
   
