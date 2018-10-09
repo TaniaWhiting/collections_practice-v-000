@@ -33,7 +33,7 @@ def find_a(array)
     new_array.push(word)
     end
   end
-  return array
+  return new_array
 end
   
 
