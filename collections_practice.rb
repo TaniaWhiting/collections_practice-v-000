@@ -30,6 +30,7 @@ def kesha_maker(array)
       new_string.insert(2,"$")
       new_array[index]=new_string.join
     end
+  end
   return new_array
 end
     
